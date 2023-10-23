@@ -1,14 +1,18 @@
 {
-  "name": "gtemplate",
-  "version": "1.0.0",
+  "name": "g-ant-template",
+  "version": "1.0.1",
   "description": "自用apifox自动模版生成器",
   "main": "index.js",
   "scripts": {
-    "check": "node ./index.js",
+    "start": "node ./bin/index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/glstrive/gTemplate"
+  },
   "bin":{
-    "gtemplate":""
+    "gTemplate":"node ./bin/index.js"
   },
   "author": "mango",
   "license": "ISC",
